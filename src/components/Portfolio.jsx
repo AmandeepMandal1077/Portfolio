@@ -37,8 +37,8 @@ const Portfolio = () => {
         "CRUD operations for posts with commenting system",
         "Real-time updates and cloud deployment on Render",
       ],
-      liveLink: "#",
-      githubLink: "#",
+      liveLink: "https://blogify-mrk9.onrender.com/",
+      githubLink: "https://github.com/AmandeepMandal1077/Blogify",
     },
     {
       title: "Chrome Extension for AI-Powered Content Enhancement",
@@ -58,7 +58,7 @@ const Portfolio = () => {
         "Cross-site functionality with security best practices",
         "Context-aware AI responses using Google Gemini AI",
       ],
-      githubLink: "#",
+      githubLink: "https://github.com/AmandeepMandal1077/Gemini-Extension",
     },
     {
       title: "Todo Management Application",
@@ -78,7 +78,7 @@ const Portfolio = () => {
         "Complete CRUD operations with status toggling",
         "Real-time UI updates with dynamic state management",
       ],
-      liveLink: "#",
+      liveLink: "https://todo-with-context-api.onrender.com/",
     },
   ];
 
@@ -256,10 +256,11 @@ const Portfolio = () => {
               <div className="relative">
                 <div className="w-80 h-80 bg-gradient-to-r from-[#2b2c28ff]/20 to-[#131515ff]/20 rounded-3xl shadow-2xl shadow-[#131515ff]/20 flex items-center justify-center transform rotate-3 border border-[#339989ff]/30">
                   <div className="w-72 h-72 bg-[#131515ff] rounded-2xl flex flex-col items-center justify-center shadow-inner border border-[#2b2c28ff]">
-                    <div className="text-8xl mb-4">📷</div>
+                    {/* <div className="text-8xl mb-4">📷</div>
                     <div className="text-[#7de2d1ff]/60 font-medium">
                       Your Photo Here
-                    </div>
+                    </div> */}
+                    <img src="/images/Me.jpg" alt="" />
                   </div>
                 </div>
                 <div className="absolute -top-4 -right-4 w-8 h-8 bg-[#339989ff] rounded-full shadow-lg shadow-[#131515ff]/50"></div>
@@ -508,22 +509,23 @@ const Portfolio = () => {
               Call Me
             </a>
             <a
-              href="mailto:your.email@gmail.com"
+              href="mailto:mandalamandeep@gmail.com"
               className="flex items-center gap-3 bg-[#131515ff] text-[#7de2d1ff] border border-[#2b2c28ff]/50 hover:bg-[#131515ff]/80 hover:border-[#7de2d1ff] px-8 py-4 rounded-xl font-semibold transition-all duration-300"
             >
               <Mail className="w-5 h-5" />
               Email Me
             </a>
             <a
-              href="#"
+              href="https://github.com/AmandeepMandal1077/"
               className="flex items-center gap-3 bg-[#131515ff] text-[#7de2d1ff]/80 border border-[#2b2c28ff]/50 hover:bg-[#131515ff]/80 hover:border-[#fffafbff] px-8 py-4 rounded-xl font-semibold transition-all duration-300"
             >
               <Github className="w-5 h-5" />
               GitHub
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/amandeep-mandal-66aab3289/"
               className="flex items-center gap-3 bg-[#131515ff] text-[#339989ff] border border-[#2b2c28ff]/50 hover:bg-[#131515ff]/80 hover:border-[#339989ff] px-8 py-4 rounded-xl font-semibold transition-all duration-300"
+              target="_blank"
             >
               <Linkedin className="w-5 h-5" />
               LinkedIn
