@@ -180,13 +180,13 @@ const achievements = [
   {
     title: "Competitive Programmer",
     description:
-      "Solved 500+ problems on Leetcode with contest rating of 1800+",
+      "Solved 600+ problems on Leetcode with contest rating of 1900+",
     icon: <Star className="w-6 h-6" />,
   },
   {
     title: "CodeChef 3-Star Coder",
     description:
-      "Maintained a 3-star rating (1600+) on Codechef, showcasing consistent competitive programming performance.",
+      "Maintained a 3-star rating (1700+) on Codechef, showcasing consistent competitive programming performance.",
     icon: <Award className="w-6 h-6" />,
   },
   {
