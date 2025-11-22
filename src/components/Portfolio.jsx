@@ -27,9 +27,13 @@ const navItems = [
 ];
 
 const heroStats = [
-  { label: "MERN projects", value: "03", detail: "Blogify • Gemini • Todo" },
-  { label: "LeetCode problems", value: "500+", detail: "Rating 1800+" },
-  { label: "CodeChef rating", value: "3-star", detail: "1600+ coder" },
+  {
+    label: "MERN projects",
+    value: "Several",
+    detail: "Blogify • Gemini • Todo",
+  },
+  { label: "LeetCode problems", value: "600+", detail: "Rating 1900+" },
+  { label: "CodeChef rating", value: "3-star", detail: "1700+ coder" },
   { label: "CGPA", value: "8.04", detail: "IIIT Kota" },
 ];
 
