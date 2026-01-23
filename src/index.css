@@ -4,8 +4,14 @@
   :root {
     color: #f8fbff;
     background-color: #030712;
-    font-family: "Space Grotesk", "Inter", system-ui, -apple-system,
-      BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-family:
+      "Space Grotesk",
+      "Inter",
+      system-ui,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      sans-serif;
   }
 
   *,
@@ -47,7 +53,8 @@
 .aurora-blur {
   position: fixed;
   inset: 0;
-  background: radial-gradient(
+  background:
+    radial-gradient(
       60% 60% at 15% 20%,
       rgba(125, 226, 209, 0.35),
       transparent 70%
@@ -101,6 +108,63 @@
   100% {
     transform: translateX(120%) rotate(12deg);
   }
+}
+
+/* Animated gradient for hero name */
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  animation: gradient 4s ease infinite;
+}
+
+/* Enhanced glow effect */
+.glow-effect {
+  box-shadow:
+    0 0 30px rgba(125, 226, 209, 0.3),
+    0 0 60px rgba(125, 226, 209, 0.15);
+}
+
+/* 3D perspective for tilt cards */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #030712;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(125, 226, 209, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(125, 226, 209, 0.5);
+}
+
+/* Selection styling */
+::selection {
+  background: rgba(125, 226, 209, 0.4);
+  color: #fff;
 }
 
 @media (prefers-reduced-motion: reduce) {
